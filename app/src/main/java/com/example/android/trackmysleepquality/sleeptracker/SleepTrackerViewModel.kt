@@ -217,9 +217,7 @@ class SleepTrackerViewModel(
         }
     }
 
-    /**
-     * Executes when the CLEAR button is clicked.
-     */
+
     fun onClear() {
         uiScope.launch {
             // Clear the database table.
